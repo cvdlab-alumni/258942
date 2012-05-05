@@ -131,6 +131,6 @@ DRAW(tetti);
  var scalino4 = T([0,1])([36,1])(SIMPLEX_GRID([[2.2],[3],[0.8]]));
  var scalino5 = T([0,1])([36,1])(SIMPLEX_GRID([[2],[3],[1]]));
  var scalino6 = T([0,1])([36,1])(SIMPLEX_GRID([[1.8],[3],[1.2]]));
- var scalino7 = T([0,1])([36,1])(SIMPLEX_GRID([[1.6],[3],[1]]));
+ var scalino7 = T([0,1])([36,1])(SIMPLEX_GRID([[1.6],[3],[1.4]]));
  var scalinata = STRUCT([scalino1, scalino2,scalino3,scalino4,scalino5,scalino6,scalino7]);
  DRAW(scalinata);
