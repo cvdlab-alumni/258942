@@ -61,11 +61,11 @@ function createNubs (point) {
 		return c1;
 }
 
-/* This function creates a 1 grade Bezier curve. The function takes as input an array of curves. It returns to the Bezier curve. 
+/* This function creates a Bezier curve. The function takes as input an array of curves. It returns to the Bezier curve. 
 
    INPUT - An array of curves
 
-   OUTPUT - A 1 grade Bezier curve
+   OUTPUT - A Bezier curve
 
 */
 
@@ -76,11 +76,9 @@ function createBezierS1(curves) {
   return b1;
 }
 
-/* This function creates a 2 grade Bezier curve. The function takes as input an array of curves and a color. It returns to the drawing of curves. 
+/* This function creates a Bezier curve. The function takes as input an array of curves and a color. It returns to the drawing of curves. 
 
    INPUT - An array of curves and a color
-
-   OUTPUT - A 2 grade Bezier curve
 
 */
 
